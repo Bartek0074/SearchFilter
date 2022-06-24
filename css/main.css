@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  font-size: 1.6rem;
+  background-color: #e9e9e9;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px #000;
+          box-shadow: 0 0 10px #000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  height: 250px;
+  background-image: url("/img/magnifying-glass.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.header .shadow {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header h1 {
+  font-size: 4.2rem;
+  color: #fff;
+  text-shadow: 0 0 25px black;
+}
+
+.header .search {
+  position: absolute;
+  bottom: 15%;
+  min-width: 200px;
+  width: 30%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.item-list {
+  padding: 20px 40px;
+}
+
+.item-list h2 {
+  padding: 20px 0;
+}
+
+.item-list ul {
+  padding-bottom: 30px;
+  font-size: 1.8rem;
+  list-style: none;
+}
+
+.item-list ul li {
+  padding: 5px 30px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.item-list ul li:last-child {
+  border-bottom: 0;
+}
+
+.item-list p {
+  display: none;
+  color: tomato;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
