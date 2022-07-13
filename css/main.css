@@ -53,7 +53,7 @@ body {
           align-items: center;
   position: relative;
   height: 250px;
-  background-image: url("/img/magnifying-glass.jpg");
+  background-image: url("../img/magnifying-glass.jpg");
   background-size: cover;
   background-position: center;
   z-index: 0;
