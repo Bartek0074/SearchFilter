@@ -1,4 +1,10 @@
 # SearchFilter
 
-Simple JavaScript app with search engine <br />
-You can see this app on https://bartek0074.github.io/SearchFilterJS/
+Simple JavaScript app with search engine.<br />
+
+⚙ Technology used:
+- HTML
+- SASS
+- JavaScript
+
+Demo https://bartek0074.github.io/SearchFilterJS/
